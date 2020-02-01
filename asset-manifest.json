@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-cart/static/css/main.4bc451c5.chunk.css",
+    "main.js": "/react-cart/static/js/main.e703aa45.chunk.js",
+    "main.js.map": "/react-cart/static/js/main.e703aa45.chunk.js.map",
+    "runtime~main.js": "/react-cart/static/js/runtime~main.641e3367.js",
+    "runtime~main.js.map": "/react-cart/static/js/runtime~main.641e3367.js.map",
+    "static/js/2.1e4a2dbe.chunk.js": "/react-cart/static/js/2.1e4a2dbe.chunk.js",
+    "static/js/2.1e4a2dbe.chunk.js.map": "/react-cart/static/js/2.1e4a2dbe.chunk.js.map",
+    "index.html": "/react-cart/index.html",
+    "precache-manifest.d5f1aee898b0fa554a8f908b0fcfb20a.js": "/react-cart/precache-manifest.d5f1aee898b0fa554a8f908b0fcfb20a.js",
+    "service-worker.js": "/react-cart/service-worker.js",
+    "static/css/main.4bc451c5.chunk.css.map": "/react-cart/static/css/main.4bc451c5.chunk.css.map"
+  }
+}
