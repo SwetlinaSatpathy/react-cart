@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-import { CardList } from './components/card-list/card-list.component';
+import CardList from './components/card-list/card-list.component';
 import { SearchBox } from './components/search-box/search-box.component';
-
+import { connect } from 'react-redux';
+import { setMonsters } from './redux/monster/monster.actions';
 import './App.css';
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then(users => this.setState({ monsters: users }));
+      .then(users => this.props.setMonsters(users));
   }
 
   onSearchChange = event => {
@@ -41,4 +42,11 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapDispatchToProps = dispatch => ({
+  setMonsters: monsters => dispatch(setMonsters(monsters))
+});
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(App);
